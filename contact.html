@@ -27,15 +27,18 @@
       </div>
   </div>
     
-  <nav class="navbar navbar-expand-lg navbar-info bg-info" style="position:fixed ; width:100%; z-index:2" data-aos="slide-up" data-aos-duration="1500">
-    <a href="https://tejasnavale.com"><button type="button" class="btn btn-primary btn-lg" style="margin-left:20px ; font-size: 30px; font-weight: bold; color:rgb(255, 255, 255);" data-aos="slide-up" data-aos-duration="1000">Tejas Navale </button></a>  
+  <nav class="navbar navbar-expand-lg" style="background-color: #1c2b32; position: fixed; width:100%; z-index:2" data-aos="slide-up" data-aos-duration="1500">
+
+    <a href="https://tejasnavale.com"> <img src="photo/sitelogo.png" height="60px" width="200px" style="margin-left: 15%;"> </a>
+  
+    <!-- <a href="https://tejasnavale.com"><button type="button" class="btn btn-primary btn-lg" style="margin-left:20px ; font-size: 30px; font-weight: bold; color:rgb(255, 255, 255);" data-aos="slide-up" data-aos-duration="1000">Tejas Navale </button></a>   -->
     <!-- <a class="navbar-brand" href="https://tejasnavale.com" style="margin-left:20px ; font-size: 30px; font-weight: bold; color:rgb(111 3 206);">Tejas Navale</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon" style="background-color:deepskyblue ;"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-right: 5%;">
         <ul class="navbar-nav ms-auto">
-
+  
           <li class="nav-item dropdown">
               <!-- <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Go To
@@ -46,11 +49,11 @@
                 <a class="dropdown-item" href="#">Something else here</a> -->
               </div>
             </li>
-
+  
           <!-- <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
           </li> -->
-          <p>&nbsp;</p>
+          <!-- <p>&nbsp;</p>
           <li class="nav-item">
             <a href="https://tejasnavale.com"><button type="button" class="btn btn-primary btn-lg" data-aos="slide-up" data-aos-duration="1000">Home </button></a>
           </li>
@@ -62,20 +65,25 @@
           <li class="nav-item">
             <a href="contact.html"><button type="button" class="btn btn-primary btn-lg" data-aos="slide-up" data-aos-duration="1000">Contact Us </button></a>
           </li>
-          <p>&nbsp;</p>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="https://tejasnavale.com">Home</a>
-          </li> -->
-          <!-- <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li> -->
+          <p>&nbsp;</p> -->
+  
+          
+          <li class="nav-item">
+            <a class="nav-link"  style="color:dodgerblue ; font-size: 25px; font-weight: bold;" href="https://tejasnavale.com"><span class="buttoncolor">Home</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" style="color:dodgerblue ; font-size: 25px; font-weight: bold;" href="about.html"><span class="buttoncolor">About Me</span></a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:dodgerblue ; font-size: 25px; font-weight: bold;" href="contact.html"><span class="buttoncolor">Contact Me</span></a>
+          </li>
+        
+      
           
         </ul>
       </div>
     </nav>
+  
 
 
   <br><br><br><br><br>
@@ -198,7 +206,7 @@
 
 
       <!--Section: Contact v.2-->
-<section class="container">
+<section class="container" style="background-color: antiquewhite; border-radius: 20px; color: black; font-weight: bolder;">
 
   <!--Section heading-->
   <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
@@ -218,7 +226,7 @@
                   <!--Grid column-->
                   <div class="col-md-6">
                       <div class="md-form mb-0">
-                          <input type="text" id="name" name="name" class="form-control">
+                          <input type="text" id="name" placeholder="Name" name="name" class="form-control">
                           <label for="name" class="">Your name</label>
                       </div>
                   </div>
@@ -227,7 +235,7 @@
                   <!--Grid column-->
                   <div class="col-md-6">
                       <div class="md-form mb-0">
-                          <input type="text" id="email" name="email" class="form-control">
+                          <input type="text" placeholder="Email" id="email" name="email" class="form-control">
                           <label for="email" class="">Your email</label>
                       </div>
                   </div>
@@ -240,7 +248,7 @@
               <div class="row">
                   <div class="col-md-12">
                       <div class="md-form mb-0">
-                          <input type="text" id="subject" name="subject" class="form-control">
+                          <input type="text" placeholder="Subject" id="subject" name="subject" class="form-control">
                           <label for="subject" class="">Subject</label>
                       </div>
                   </div>
@@ -254,7 +262,7 @@
                   <div class="col-md-12">
 
                       <div class="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <textarea type="text" id="message" placeholder="Enter Your Message Here" name="message" rows="2" class="form-control md-textarea"></textarea>
                           <label for="message">Your message</label>
                       </div>
 
@@ -268,6 +276,7 @@
               <!-- <a class="btn btn-primary" type="button" desabled onclick="document.getElementById('contact-form').submit();">Send</a> -->
               <a class="btn btn-primary">Send</a>
           </div>
+          <br><br>
           <div class="status"></div>
       </div>
       <!--Grid column-->
@@ -306,79 +315,83 @@
 
 
 
-        <!-- ======= Footer ======= -->
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+      
+      
+      
+       <!-- ======= Footer ======= -->
+        <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
 
 
-    <div class="footer-top" style="background-color:#0DCAF0  ;">
-        <br><br>
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html"  style="color:black ;">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html"  style="color:black ;">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html"  style="color:black ;">Services</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
-            </ul>
-            <br><br>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html"  style="color:black ;">Website Designing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html"  style="color:black ;">Android application designing</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#"  style="color:black ;">Court Management</a></li> -->
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
-            </ul>
-            <br><br>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              Office No. 1001, A-wing, Victoria Society <br>
-              Lohegaon, Pune ,<br>
-              Maharashtra 411016<br><br>
-              <strong>Phone:</strong> +91 8459479217<br>
-              <strong>Email:</strong> tejas@tejasnavale.com<br>
-            </p>
-
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Smash The Court</h3>
-            <p>Smash The Court Is Platform Where Player Can Book The Court With Ease Of Click And Club Owners Can List There Clubs For Booking .</p>
-            <div class="social-links mt-3">
-              <a href="https://twitter.com/i/flow/login" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <div class="footer-top" style="background-color:#1c2b32 ; color: white;">
+              <br><br>
+            <div class="container">
+              <div class="row">
+      
+                <div class="col-lg-4 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><i class="bx bx-chevron-right"></i> <a href="index.html" >Home</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="about.html" >About Me</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="contact.htm
+                    <li><i class="bx bx-chevron-right"></i> <a href="index.html" >Services</a></li>
+                    <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+                  </ul>
+                  <br><br>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 footer-links">
+                  <h4>Our Services</h4>
+                  <ul>
+                    <li><i class="bx bx-chevron-right"></i> <a href="index.html">Website Designing</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="index.html">Android application designing</a></li>
+                    <!-- <li><i class="bx bx-chevron-right"></i> <a href="#"  style="color:black ;">Court Management</a></li> -->
+                    <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+                  </ul>
+                  <br><br>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 footer-contact">
+                  <h4>Contact Me</h4>
+                  <p>
+                    Office No. 1001, A-wing, Victoria Society <br>
+                    Lohegaon, Pune ,<br>
+                    Maharashtra 411016<br><br>
+                    <strong>Phone:</strong> +91 8459479217<br>
+                    <strong>Email:</strong> tejas@tejasnavale.com<br>
+                  </p>
+      
+                </div>
+      
+                <!-- <div class="col-lg-3 col-md-6 footer-info">
+                  <h3>About Smash The Court</h3>
+                  <p>Smash The Court Is Platform Where Player Can Book The Court With Ease Of Click And Club Owners Can List There Clubs For Booking .</p>
+                  <div class="social-links mt-3">
+                    <a href="https://twitter.com/i/flow/login" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                  </div>
+                </div> -->
+      
+              </div>
             </div>
-          </div> -->
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" style="background-color: white;">
-        <br>
-      <div class="copyright" style="text-align: center; background-color: white;" data-aos="slide-up" data-aos-duration="2500">
-        &copy; Copyright <strong><span>Tejas Navale</span></strong>. All Rights Reserved
-      </div>
-      <br>
-      <div class="credits">
-        
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div>
-      <br><br><br><br><br>
-    </div>
-  </footer><!-- End Footer -->
+          </div>
+      
+          <div class="container">
+              <br>
+            <div class="copyright" style="text-align: center;" data-aos="slide-up" data-aos-duration="2500">
+              &copy; Copyright <strong><span>Tejas Navale</span></strong>. All Rights Reserved
+            </div>
+            <br>
+            <div class="credits">
+              
+              <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+            </div>
+            <br><br><br><br><br>
+          </div>
+        </footer><!-- End Footer -->
 
 
 
